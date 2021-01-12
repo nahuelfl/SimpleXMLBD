@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Mehran Asadi 1047837
+Nahuel Londono 20097185
+                            -->
+
+<!--<!DOCTYPE bibliotheque SYSTEM "bibliotheque.dtd">-->
+<?xml-model href="bibliotheque.rnc" type="application/relax-ng-compact-syntax"?>
+<!--<?xml-stylesheet type="text/css" href="bibliotheque.css"?>-->
+<?xml-stylesheet type="text/xsl" href="livre.xsl"?>
+<?xml-stylesheet type="text/xsl" href="auteur.xsl"?>
+<bibliotheque>   
+    
+    <auteurs>
+        <auteur ident="ChAu">
+        <nom>Aubry</nom>
+        <prenom>Christophe</prenom>
+        <pays>France</pays>
+        <commentaire>Actuellement spécialisé dans les techniques de conception de sites web, avec les langages fondateurs (HTML/CSS), les outils graphiques (Dreamweaver et Flash) et les CMS (PluXml, WordPress, Joomla!, Drupal), Christophe cherche à proposer le meilleur outil en fonction des besoins et des projets de création de sites web.</commentaire>
+        <photo url="https://image-uniservice.linternaute.com/image/450/4/1251780035/8961829.jpg"></photo>
+    </auteur>
+        <auteur ident="MaPr">
+            <nom>Prat</nom>
+            <prenom>Marie</prenom>
+            <pays>France</pays>
+            
+        </auteur>
+        <auteur ident="ChVi">
+            <nom>Vigouroux</nom>
+            <prenom>Christian</prenom>
+            <pays></pays>
+        </auteur>
+    </auteurs>
+    <livres>
+        <livre langue="FR" auteur="ChAu MaPr">
+        <titre>Dreamweaver CS4</titre>
+        <annee>2007</annee>
+        <prix devise="CAD">
+            <valeur>59.95</valeur>
+        </prix>
+        <couverture url="http://www.renaud-bray.com/ImagesEditeurs/PG/1069/1069155-gf.jpg"/>
+        <commentaire>Les applications possibles du logiciel spécialisé dans la création de pages HTML. Des conseils pratiques pour mieux gérer les feuilles de style, créer des formulaires ou insérer des images. Avec des exercices optimisés pour Firefox 3 et Internet Explorer 8. Compatible PC et MAC.</commentaire>
+    </livre>
+        <livre langue="FR" auteur="ChVi">
+            <titre>Apprendre à développer avec JavaScript 3e éd.</titre>
+            <annee>2019</annee>
+            <prix devise="CAD">
+                <valeur>49.95</valeur>
+            </prix>
+            <couverture url="http://www.renaud-bray.com/ImagesEditeurs/PG/2739/2739046-gf.jpg"/>
+        </livre>
+    </livres>
+</bibliotheque>
